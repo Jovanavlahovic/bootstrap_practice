@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <title>Wine Cellar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <img src="./slike/logo.jpg" alt="logo" />
+        </div>
+        <div class="col-md-11">
+          <h1>Wine Cellar</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Wine bar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    ><i class="fas fa-home"></i> Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./addWine.html">Add wine</a>
+                </li>
+              </ul>
+            </div>
+            <form class="form-inline">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                style="color: white; border: 1px solid white; margin-left: 5px"
+                class="btn btn-btn-default"
+                type="submit"
+              >
+                <i class="fas fa-search"></i> Search
+              </button>
+            </form>
+          </nav>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 5px">
+        <div class="col-md-4">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="./slike/slide1.jpeg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./slike/slide2.jpeg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./slike/slide3.jpeg"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+            quae recusandae, assumenda laboriosam modi quia placeat id soluta
+            dolorem impedit voluptatum. Fuga, qui eligendi provident ducimus
+            animi vel dolor necessitatibus possimus tempora deserunt quidem amet
+            temporibus blanditiis, sed voluptatum. Consequuntur maiores tempore
+            magnam iusto labore dignissimos maxime voluptates voluptatem
+            suscipit minus, harum commodi officiis, corporis asperiores.
+          </p>
+          <hr />
+          <button
+            type="button"
+            class="btn btn-default"
+            style="background-color: black; color: whitesmoke"
+          >
+            Read more
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+            totam temporibus consectetur at quos ea omnis, porro possimus
+            maiores consequuntur dolor similique dolore vero repellendus
+            pariatur eum architecto eius, iusto excepturi vel harum! Modi, non
+            ad? Quis, laudantium totam at omnis natus voluptates eum officiis
+            necessitatibus facilis, tempore fugit corrupti?
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+            totam temporibus consectetur at quos ea omnis, porro possimus
+            maiores consequuntur dolor similique dolore vero repellendus
+            pariatur eum architecto eius, iusto excepturi vel harum! Modi, non
+            ad? Quis, laudantium totam at omnis natus voluptates eum officiis
+            necessitatibus facilis, tempore fugit corrupti?
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+            totam temporibus consectetur at quos ea omnis, porro possimus
+            maiores consequuntur dolor similique dolore vero repellendus
+            pariatur eum architecto eius, iusto excepturi vel harum! Modi, non
+            ad? Quis, laudantium totam at omnis natus voluptates eum officiis
+            necessitatibus facilis, tempore fugit corrupti?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Name<i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Year<i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Grapes<i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Country<i class="fa fa-fw fa-sort"></i></th>
+                <th scope="col">Region<i class="fa fa-fw fa-sort"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Wine 1</th>
+                <td>2005</td>
+                <td>Akhashenuli</td>
+                <td>France</td>
+                <td>Alasce</td>
+              </tr>
+              <tr>
+                <th scope="row">Wine 2</th>
+                <td>2012</td>
+                <td>Aglianco di puglia</td>
+                <td>Italy</td>
+                <td>Sicilia</td>
+              </tr>
+              <tr>
+                <th scope="row">Wine 3</th>
+                <td>1995</td>
+                <td>Cecubo</td>
+                <td>France</td>
+                <td>Alasce</td>
+              </tr>
+              <tr>
+                <th scope="row">Wine 4</th>
+                <td>2002</td>
+                <td>Berhunder saeuerlich</td>
+                <td>Germany</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <th scope="row">Wine 5</th>
+                <td>1993</td>
+                <td>Marillo De Oro</td>
+                <td>N/A</td>
+                <td>N/A</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
